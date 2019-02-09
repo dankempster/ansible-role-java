@@ -15,3 +15,5 @@
     name: "{{ java_packages }}"
     state: present
     install_recommends: false
+    autoremove: true
+    autoclean: true
